@@ -16,8 +16,22 @@ enter.addEventListener('click', function(){
 
     else(eta === 2)
         prezzo
+
+
+    if(nome === ''){
+        alert('questo campo non può essere lasciato vuoto')
+    }
     
+
+    else{
     document.getElementById('nome-cliente').innerText=nome;
     document.getElementById('prezzo').innerText=prezzo.toFixed(2);
+    document.getElementById('carrozza').innerHTML = Math.floor(Math.random() * 99999);
+}
+}
+)
+let reset = document.getElementById('reset')
+reset.addEventListener('click', function(){
+    location.reload();
 }
 )
