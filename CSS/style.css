@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background-ticket{
+    background-color: #B91450;
+}
+
+.text-fuxia{
+    color: #B91450;
+}
+
+.border-form{
+    border: 1px solid #B91450;
+}
+
+.position-top0{
+    position: relative;
+    top: 0;
+}
